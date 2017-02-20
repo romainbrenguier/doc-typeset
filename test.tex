@@ -1,0 +1,41 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\usepackage{fullpage}
+\moderncvstyle{classic} 
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage{amsfonts}
+\usepackage{amstext}
+\usepackage{longtable}
+
+\newcommand{\toprule}{}
+\newcommand{\midrule}{}
+\newcommand{\bottomrule}{}
+
+\setlength{\parindent}{0pt}
+
+\firstname{}
+\familyname{}
+\title{\"{O}yk\"{u} \c{C}elen Brenguier \vspace{1cm}
+\\ \normalsize{Eligible to work in the UK (residence card)}}
+\photo[60pt][0pt]{{portrait-oyku2.jpg}}
+\address{Hamilton road}{OX2 7PZ Oxford}{United Kingdom}
+\mobile{+44 0741579}
+\email{oykucelen@gmail.com}
+
+\renewcommand*{\hrulefill}[1]{\leavevmode \leaders \hrule height #1 \hfill \kern 0pt}
+\let\mysec\section
+\renewcommand\section[1]{\mysec{#1~{\hrulefill{5pt}}}}
+
+\newcolumntype{R}{>{\raggedleft\arraybackslash}p{0.2\textwidth}}
+\newcolumntype{P}{p{0.75\textwidth}}
+\setlength{\extrarowheight}{0.2em}
+
+\begin{document}
+
+\maketitle
+
+%\input{CV-from-docx.tex}
+
+\end{document}
